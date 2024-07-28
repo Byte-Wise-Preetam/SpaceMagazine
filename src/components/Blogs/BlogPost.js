@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import SectionHeading from "../SectionHeading";
 import RelatedPostCard from "./RelatedPostCard";
 import { useParams } from "react-router-dom";
@@ -14,27 +14,25 @@ const BlogPost = () => {
 
     const Firebase = useFirebase();
 
-    const fetchPostsData = async (categorySlug, titleSlug) => {
+    const fetchPostsData = useCallback(async (categorySlug, titleSlug) => {
         Firebase.getSingleBlog(`/blogs/${categorySlug}/${titleSlug}`).then((data) => {
             setSinglePostData(data);
         })
-    }
+    }, [Firebase]);
 
-    const fetchRelatedArticlesData = (titleSlug, categorySlug) => {
+    const fetchRelatedArticlesData = useCallback((titleSlug, categorySlug) => {
         Firebase.getCategoryWiseBlogs(categorySlug).then((data) => {
-            // console.log("data : ", data);
             setRelatedArticles(data.filter(post => post.slug !== titleSlug));
         });
-    }
+    }, [Firebase]);
 
     useEffect(() => {
-        fetchPostsData(categorySlug,titleSlug).then(() => {
+        const fetchData = async () => {
+            await fetchPostsData(categorySlug, titleSlug);
             fetchRelatedArticlesData(titleSlug, categorySlug);
-        });
-
-        console.log("categorySlug : ", categorySlug);
-        console.log("titleSlug : ",titleSlug);
-    },[categorySlug, titleSlug, Firebase]);
+        };
+        fetchData();
+    },[categorySlug, titleSlug, fetchPostsData, fetchRelatedArticlesData]);
 
     useEffect(() => {
         window.scrollTo(0, 0);

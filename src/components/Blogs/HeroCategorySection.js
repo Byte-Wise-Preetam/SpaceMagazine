@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useFirebase } from "../../context/firebase";
 import SectionHeading from "../SectionHeading";
 import { Link } from "react-router-dom";
@@ -23,7 +23,7 @@ const HeroCategorySection = () => {
         { id: 5, categoryName: "Inspiring Stories", categorySlug: "inspiring-stories" }
     ];
 
-    const fetchFeaturedPosts = async () => {
+    const fetchFeaturedPosts = useCallback(async () => {
         try {
             const data = await Firebase.fetchFeaturedPosts();
             if (data.length) {
@@ -33,9 +33,9 @@ const HeroCategorySection = () => {
         } catch (error) {
             // console.error("Error fetching featured posts:", error);
         }
-    };
+    }, [Firebase]);
 
-    const filterCategoryWisePosts = async (selectedCategory = "business-how-tos") => {
+    const filterCategoryWisePosts = useCallback(async (selectedCategory = "business-how-tos") => {
         try{
             const data = await Firebase.getCategoryWiseBlogs(selectedCategory);
             setActiveCategoryButton(selectedCategory);
@@ -43,7 +43,7 @@ const HeroCategorySection = () => {
         }catch (error) {
             // console.error("Error filtering category-wise posts:", error);
         }
-    };
+    }, [Firebase]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -53,7 +53,7 @@ const HeroCategorySection = () => {
         fetchData().then(() => {
             // console.log("masterPost : ",masterPost);
         });
-    }, [categorySlug, Firebase]);
+    }, [categorySlug, fetchFeaturedPosts, filterCategoryWisePosts]);
 
     return (
         <>
