@@ -1,0 +1,496 @@
+@media screen and (max-width:1400px){
+    /* Dashboard Sidebar CSS starts here */
+
+    .DashboardSidebar_Wrapper{
+        width: 240px;
+    }
+    
+    .DashboardSidebar_Wrapper ul{
+        padding: 0 1.25rem;
+        z-index: 5;
+    }
+    
+    .DashboardSidebar_Wrapper .header_logo img{
+        width: 175px !important;
+        height: 31px !important;
+        display: inline-block;
+    }
+    
+    .DashboardSidebar_Wrapper ul .partition{
+        margin: 0.5rem 0;
+    }
+
+    .DashboardSidebar_Wrapper ul .option{
+        height: 40px;
+    }
+    
+    .DashboardSidebar_Wrapper ul .option a{
+        font-size: 1rem;
+        font-weight: 600;
+        height: 40px;
+    }
+    
+    .DashboardSidebar_Wrapper ul .option img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    /* Dashboard Sidebar CSS ends here */
+
+    /* Dashboard Main Body CSS starts here */
+    
+    .Dashboard_Main_Body_Container{
+        margin: auto;
+    }
+    
+    .dashBoard_Main_Body_Header{
+        margin: 1.5rem auto;
+        width: 1025px;
+    }
+    
+    /* Dashboard Main Body CSS ends here */
+
+    /* PostListTable  CSS starts here */
+
+    /* .Dashboard_Main_Body_Wrapper .postsListTable_Wrapper{
+    max-height: calc(100vh-200px);
+    } */
+
+    .postsListTable_Wrapper{
+        width: 1025px;
+        max-height: 425px;
+    }
+    
+    .postsListTable_Container{
+        /* border: 2px solid rgba(4, 30, 73, 0.25); */
+        width: 100%;
+    }
+    
+    .postsListTable_Container tr:nth-child(even){
+        background-color: #F2F4F7 ;
+        border-bottom: 2px solid #EAECF0 ;
+        border-top: 2px solid #EAECF0 ;
+    }
+    
+    /* PostListTable  CSS ends here */
+
+    /* PostListRow  CSS starts here */
+
+    .postsListRow_Wrapper{
+        width: 1025px;
+    }
+    
+    .postsListRowHeading .cell{
+        font-size: 19px;
+    }
+    
+    .postsListRow_Wrapper .status{
+        width: 185px;
+    }
+    
+    .postsListRow_Wrapper .postTitle{
+        width: 310px;
+        padding: 0 0.5rem;
+    }
+  
+    .postsListRow_Wrapper .category{
+        width: 225px;
+    }
+    
+    .postsListRow_Wrapper .createdAt{
+        width: 175px;
+    }
+    
+    .postsListRow_Wrapper .actions{
+        width: 115px;
+    }
+    
+    /* PostListRow  CSS ends here */
+}
+
+@media screen and (max-width:1300px){
+    /* Dashboard Sidebar CSS starts here */
+
+    .DashboardSidebar_Wrapper{
+        width: 225px;
+    }
+    
+    .DashboardSidebar_Wrapper ul{
+        padding: 0 0.75rem;
+    }
+    
+    
+    .DashboardSidebar_Wrapper .header_logo img{
+        width: 170px !important;
+        height: 30px !important;
+    }
+
+    .DashboardSidebar_Wrapper ul .option .active{
+        padding-left: 0.75rem;
+    }
+    
+    .DashboardSidebar_Wrapper ul .option a{
+        margin-left: 0.75rem;
+    }
+    
+    /* Dashboard Sidebar CSS ends here */
+
+    /* Dashboard Main Body CSS starts here */
+    
+    .Dashboard_Main_Body_Container{
+        margin: auto;
+    }
+    
+    .dashBoard_Main_Body_Header{
+        margin: 1.5rem auto;
+        width: 950px;
+    }
+    
+    /* Dashboard Main Body CSS ends here */
+
+    /* PostListTable  CSS starts here */
+
+    /* .Dashboard_Main_Body_Wrapper .postsListTable_Wrapper{
+    max-height: calc(100vh-200px);
+    } */
+
+    .postsListTable_Wrapper{
+        width: 950px;
+        max-height: 375px;
+    }
+    
+    .postsListTable_Container{
+        /* border: 2px solid rgba(4, 30, 73, 0.25); */
+        width: 100%;
+    }
+    
+    .postsListTable_Container tr:nth-child(even){
+        background-color: #F2F4F7 ;
+        border-bottom: 2px solid #EAECF0 ;
+        border-top: 2px solid #EAECF0 ;
+    }
+    
+    /* PostListTable  CSS ends here */
+
+    /* PostListRow  CSS starts here */
+
+    .postsListRow_Wrapper{
+        width: 950px;
+    }
+    
+    .postsListRowHeading .cell{
+        font-size: 18px;
+    }
+    
+    .postsListRow_Wrapper .status{
+        width: 185px;
+    }
+    
+    .postsListRow_Wrapper .postTitle{
+        width: 275px;
+        padding: 0 0.5rem;
+    }
+  
+    .postsListRow_Wrapper .category{
+        width: 220px;
+    }
+    
+    .postsListRow_Wrapper .createdAt{
+        width: 175px;
+    }
+    
+    .postsListRow_Wrapper .actions{
+        width: 90px;
+    }
+    
+    /* PostListRow  CSS ends here */
+}
+
+@media screen and (min-width:1201px){
+    .DashboardSidebar_Wrapper .header_container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .DashboardHome_Main_Wrapper{
+        overflow: hidden;
+    }
+
+    .DashboardHome_Main_Container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .DashboardSidebar_Wrapper{
+        width: 100%;
+        position: relative;
+        background-color: #F9F9F9;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    }
+
+    .DashboardSidebar_Wrapper .header_container{
+        /* border: 2px solid blue; */
+        padding: 1rem 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .DashboardSidebar_Wrapper .header_container .firm_logo img{
+        width: 200px;
+        height: 35px;
+    }
+
+    .DashboardSidebar_Wrapper .header_container .menu{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .DashboardSidebar_Wrapper .header_logo{
+        display: none;
+    }
+
+    .show_sidebar{
+        display: block !important;
+    }
+
+    .DashboardSidebar_Wrapper ul{
+        width: 100%;
+        width: 300px;
+        padding: 0 1.85rem;
+        height: initial;
+        max-height: 450px;
+        overflow-y: scroll;
+        background-color: #F9F9F9;
+        position: absolute;
+        display: none;
+        top: 58px;
+        right: 0;
+        z-index: 12;
+    }
+
+    .postsListTable_Wrapper{
+        max-height: calc(100vh - 250px);
+        /* max-height: 575px; */
+    }
+
+    .postsListRowHeading .cell{
+        font-size: 1rem !important;
+    }
+
+    .postsListRow_Wrapper .cell{
+        font-size: 0.875rem;
+    }
+
+      
+}
+
+@media screen and (max-width:992px){
+
+    .dashBoard_Main_Body_Header{
+        margin: 1.5rem auto;
+        width: 100%;
+    }
+
+    .postsListTable_Wrapper{
+        width: 90vw;
+        overflow-x: scroll !important;
+        max-height: calc(100vh - 250px);
+        /* max-height: 575px; */
+        border: 2px solid rgba(4, 30, 73, 0.25);
+        border-radius: 0.5rem;
+        margin: auto;
+    }
+
+    .postsListTable_Layer{
+        min-width: 950px;
+        width: 950px;
+    }
+
+    .postsListTable_Container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .postsListTable_Wrapper{
+        max-height: calc(100vh - 210px);
+    }
+
+    .postsListTable_Wrapper{
+        margin-top: 2.5rem;
+    }
+
+    .dashBoard_Main_Body_Header{
+        padding: 0 1.25rem;
+    }
+
+    .dashBoard_Main_Body_Header .content{
+        width: 60%;
+    }
+    
+    .dashBoard_Main_Body_Header .buttons{
+        width: 40%;
+    }
+
+    .dashBoard_Main_Body_Header .content .heading{
+        font-size: 1.6rem;
+    }
+
+    .dashBoard_Main_Body_Header .content .desc{
+        font-size: 1rem;
+    }
+
+    .dashBoard_Main_Body_Header .buttons #dark_bg{
+        font-size: 1rem;
+        padding: 0.25rem 0.5rem;
+        height: 35px;
+        margin-left: 0;
+        border-radius: 0.25rem;
+    }
+    
+    .dashBoard_Main_Body_Header .buttons button img{
+        width: 14px;
+        height: 14px;
+    }
+
+    .Dashboard_Main_Body_Wrapper .PopUpList_Container{
+        width: 350px;
+    }
+
+    .PopUpList_Container .PopUpList_Header{
+        /* border: 2px solid blue; */
+        height: 65px;
+        padding: 0 2rem;
+    }
+
+    .PopUpList_Container .PopUpList_Content{
+        padding: 0 0.5rem;
+    }
+
+    .PopUpList_Container .postInfo .postName{
+        width: 75%;
+        font-size: 0.875rem;
+        /* border: 2px solid red; */
+    }
+
+    .PopUpList_Container .postInfo{
+        padding: 1rem 0.5rem;
+        margin: 0 0.5rem;
+    }
+
+    .PopUpList_Container .postInfo button{
+        max-height: 40px;
+        padding: 0.2rem 1rem;
+        border-radius: 0.25rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width:576px){
+    .DashboardSidebar_Wrapper .header_container{
+        /* border: 2px solid blue; */
+        padding: 1rem 1.5rem;
+    }
+
+    .DashboardSidebar_Wrapper .header_container .firm_logo img{
+        width: 171px;
+        height: 30px;
+    }
+
+    .DashboardSidebar_Wrapper .header_container .menu{
+        width: 30px;
+        height: 30px;
+    }
+
+    .DashboardSidebar_Wrapper ul{
+        width: 100%;
+        width: 275px;
+        padding: 0 1.85rem;
+        height: initial;
+        max-height: 450px;
+    }
+
+    /* ##############  dashboard main body header css starts here  */
+
+    .dashBoard_Main_Body_Header .content .heading{
+        font-size: 1.35rem;
+    }
+      
+    .dashBoard_Main_Body_Header .content .desc{
+        font-size: 0.75rem;
+    }
+
+    .dashBoard_Main_Body_Header{
+        /* border: 2px solid cyan; */
+        padding: 0 1rem;
+    }
+
+    .dashBoard_Main_Body_Header .content{
+        width: 60%;
+    }
+    
+    .dashBoard_Main_Body_Header .buttons{
+        width: 40%;
+    }
+
+    .dashBoard_Main_Body_Header .buttons button{
+        font-size: 0.75rem;
+        padding: 0.2rem 0.35rem;
+        height: 35px;
+        margin-left: 0;
+        border-radius: 0.25rem;
+    }
+
+    .dashBoard_Main_Body_Header .buttons #dark_bg{
+        font-size: 0.875rem;
+        padding: 0.2rem 0.35rem;
+        height: 32px;
+        margin-left: 0;
+        border-radius: 0.25rem;
+    }
+    
+    .dashBoard_Main_Body_Header .buttons button img{
+        width: 14px;
+        height: 14px;
+    }
+
+    /* ##############  dashboard main body header css ends here  */
+
+    .Dashboard_Main_Body_Wrapper .PopUpList_Container{
+        width: 325px;
+    }
+}
+
+@media screen and (max-width:370px){
+    .dashBoard_Main_Body_Header .content{
+        width: 65%;
+    }
+    
+    .dashBoard_Main_Body_Header .buttons{
+        width: 35%;
+    }
+
+    .dashBoard_Main_Body_Header .content .heading{
+        font-size: 1.25rem;
+    }
+      
+    .dashBoard_Main_Body_Header .content .desc{
+        font-size: 0.75rem;
+    }
+
+    .dashBoard_Main_Body_Header{
+        padding: 0 0.75rem;
+    }
+
+    .Dashboard_Main_Body_Wrapper .PopUpList_Container{
+        width: 300px;
+    }
+}

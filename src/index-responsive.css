@@ -1,0 +1,1377 @@
+@media screen and (max-width:1400px){
+
+    /* Global CSS starts here */
+
+    .blogHome_hero_wrapper .section_Heading,
+    .category_wise_posts_wrapper .section_Heading,
+    .suggestedPosts_wrapper .section_Heading,
+    .categoryPagePosts_wrapper .section_Heading{
+        width: 1200px;
+    }
+
+    /* Global CSS ends here */
+
+    /* BlogHomeHeader CSS starts here */
+
+    .blog_frontend_header .header_container{
+        width: 1200px;
+        margin: auto;
+    }
+
+    .blog_frontend_header .category_list{
+        width: 1200px;
+    }
+
+    /* BlogHomeHeader CSS ends here */
+
+    /* BlogHomeFooter CSS starts here */
+    
+    .footer_container{
+        width: 1200px;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+
+    /* Subscribe css starts here */
+
+    .subscribeCard_wrapper{
+        width: 1200px;
+    }
+      
+    .subscribeCard_wrapper .title{
+        font-size: 1.6rem;
+        width: 55%;
+    }
+      
+    .subscribeCard_wrapper .form_wrapper{
+        width: 45%;
+    }
+    /* Subscribe css starts here */
+
+    /* Shimmer post card css starts here */
+
+    .shimmer_postCard_box{
+        min-width: 350px;
+        width: 350px;
+        height: 500px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard{
+        width:350px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard .image{
+        width: 310px;
+        height: 200px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard .content{
+        width: 310px;
+        height: 275px;
+    }
+    
+    .shimmer_postCard .category{
+        width: 150px;
+        height: 30px;
+    }
+    
+    .shimmer_postCard .title{
+        width: 285px;
+        height: 85px;
+    }
+    
+    /* Shimmer post card css ends here */
+
+    /* blogHome_hero_container css starts here */
+
+    .blogHome_hero_container{
+        width: 1200px;
+    }
+
+    .blogHome_hero_container .left{
+        width: 750px;
+    }
+
+    .blogHome_hero_container .right{
+        width: 425px;
+    }
+
+    /* blogHome_hero_container css ends here */
+
+    /* RowScrollPostsWrapper css starts here */
+    .rowScrollPosts_wrapper{
+        width: 1200px;
+    }
+    
+    .rowScrollPosts_container{
+        width: 1200px;
+    }
+  
+    /* RowScrollPostsWrapper css ends here */
+
+    /* category Wise Posts css starts here */
+    
+    .category_wise_posts_wrapper .filterCTAs{
+        width: 1200px;
+    }
+
+    /* category Wise Posts css ends here */
+
+    /* Section Heading css starts here */
+
+    .SectionHeading_container{
+        width: 1200px;
+    }
+  
+    /* Section Heading css ends here */
+
+    /* Recent Posts starts here */
+  
+    .recent_Posts{
+        width: 1200px;
+    }
+    
+    .recent_Posts_Wrapper .section_Heading{
+        width: 1200px;
+    }
+    
+    /* Recent Posts ends here */
+
+    /* BlogPost css starts here */
+
+    .blog_Post_Hero{
+        width: 1200px;
+    }
+    
+    .blog_Post_Hero .content{
+        width: 50%;
+        padding: 0 1rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 50%;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        /* width:; */
+        height: 350px;
+    }
+    
+    /* BlogPost css ends here */
+
+
+    /* BlogPostCard css starts here */
+
+    .blog_card_box{
+        min-width: 350px;
+    }
+    
+    .blog_card{
+        width: 310px;
+    }
+    
+    .blog_card .image{
+        height: 200px;
+    }
+    
+    .blog_card .content .title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+  
+    /* BlogPostCard css ends here */
+
+    /* BlogPostData css starts here */
+
+    .blog_Post_Data{
+        width: 1200px;
+    }
+    
+    .blog_Post_Data .blog_Post_Content{
+        width: 65%;
+    }
+
+    .blog_Post_Data_wrapper .blog_Post_Related_Posts{
+        width: 35%;
+        padding-left: 3rem;
+    }
+
+    /* BlogPostData css ends here */
+    
+}
+
+@media screen and (max-width:1200px){
+
+    /* Global CSS starts here */
+
+    .blogHome_hero_wrapper .section_Heading,
+    .category_wise_posts_wrapper .section_Heading,
+    .suggestedPosts_wrapper .section_Heading,
+    .categoryPagePosts_wrapper .section_Heading{
+        width: 1000px;
+    }
+
+    /* Global CSS ends here */
+
+    /* BlogHomeHeader CSS starts here */
+
+    .blog_frontend_header .header_container{
+        width: 1100px;
+        margin: auto;
+    }
+
+    .blog_frontend_header .category_list{
+        width: 1025px;
+    }
+
+    /* BlogHomeHeader CSS ends here */
+
+    /* BlogHomeFooter CSS starts here */
+    
+    .footer_container{
+        width: 1100px;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+
+    /* Subscribe css starts here */
+
+    .subscribeCard_wrapper{
+        width: 1000px;
+        justify-content: space-between;
+    }
+      
+    .subscribeCard_wrapper .title{
+        font-size: 1.4rem;
+        width: 50%;
+    }
+      
+    .subscribeCard_wrapper .form_wrapper{
+        width: 40%;
+    }
+    /* Subscribe css starts here */
+
+    /* blogHome_hero_container css starts here */
+
+    .blogHome_hero_container{
+        width: 1000px;
+    }
+
+    .blogHome_hero_container .left{
+        width: 575px;
+    }
+
+    .blogHome_hero_container .right{
+        width: 400px;
+    }
+
+    .front_featuredPost_container .post_info .title{
+        width: 75%;
+    }
+
+    /* blogHome_hero_container css ends here */
+
+    /* RowScrollPostsWrapper css starts here */
+    .rowScrollPosts_wrapper{
+        width: 1000px;
+    }
+    
+    .rowScrollPosts_container{
+        width: 1000px;
+    }
+  
+    /* RowScrollPostsWrapper css ends here */
+
+    /* category Wise Posts css starts here */
+    
+    .category_wise_posts_wrapper .filterCTAs{
+        width: 1000px;
+    }
+
+    /* category Wise Posts css ends here */
+
+    /* Section Heading css starts here */
+
+    .SectionHeading_container{
+        width: 1000px;
+    }
+  
+    /* Section Heading css ends here */
+
+    /* Recent Posts starts here */
+  
+    .recent_Posts{
+        width: 1000px;
+    }
+    
+    .recent_Posts_Wrapper .section_Heading{
+        width: 1000px;
+    }
+    
+    /* Recent Posts ends here */
+
+    /* BlogPost css starts here */
+    
+    .blog_Post_Hero{
+        width: 990px;
+    }
+    
+    .blog_Post_Hero .content{
+        width: 55%;
+        padding: 0 0rem;
+        padding-right: 1.5rem;
+    }
+
+    .blog_Post_Hero .content .category{
+        font-size: 1rem;
+        padding: 0.25rem 0.75rem;
+    }
+      
+    .blog_Post_Hero .content .title{
+        font-size: 3.25rem;
+        line-height: 4.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        /* width:; */
+        height: 300px;
+        margin: 0;
+    }
+    
+    /* BlogPost css ends here */
+
+    /* BlogPostData css starts here */
+
+    .blog_Post_Data{
+        width: 1000px;
+        padding: 2rem 0;
+    }
+    
+    .blog_Post_Data .blog_Post_Content{
+        width: 63%;
+        padding-left: 0;
+    }
+
+    .blog_Post_Data_wrapper .blog_Post_Related_Posts{
+        width: 37%;
+        padding-left: 1rem;
+    }
+
+    /* BlogPostData css ends here */
+
+}
+
+@media screen and (max-width:1100px){
+
+    /* BlogHomeHeader CSS starts here */
+
+    .blog_frontend_header .header_container{
+        width: 1000px;
+        margin: auto;
+    }
+
+    .blog_frontend_header .category_list{
+        width: 1000px;
+    }
+
+    /* BlogHomeHeader CSS ends here */
+
+    /* BlogHomeFooter CSS starts here */
+    
+    .footer_container{
+        width: 1000px;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+}
+
+@media screen and (max-width:992px){
+
+    /* Global CSS starts here */
+
+    .blogHome_hero_wrapper .section_Heading,
+    .category_wise_posts_wrapper .section_Heading,
+    .suggestedPosts_wrapper .section_Heading,
+    .categoryPagePosts_wrapper .section_Heading{
+        width: 768px;
+    }
+
+    /* Global CSS ends here */
+
+    /* BlogHomeHeader CSS starts here */
+
+    .blog_frontend_header{
+        background-color: #f2f4f7;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .blog_frontend_header .header_container{
+        width: 100%;
+        padding: 0 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .blog_frontend_header .header_logo img{
+        margin: auto;
+        width: 240px;
+        height: 42px;
+    }
+
+    .blog_frontend_header .show_category_list{
+        display: flex !important;
+    }
+
+    .blog_frontend_header .category_list{
+        position: absolute;
+        width: 325px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        padding: 1rem 0;
+        top: 75px;
+        right: 0;
+        background-color: #f2f4f7;
+        z-index: 10;
+    }
+
+    .blog_frontend_header .category_CTA{
+        width: 85%;
+        font-size: 1.25rem;
+        margin-right: 0 !important;
+        padding: 1rem 0;
+    }
+
+    .blog_frontend_header .category_CTA:not(:last-child){
+        border-bottom: 2px solid #BEBEBE;
+    }
+
+    /* BlogHomeHeader CSS ends here */
+
+    /* BlogHomeFooter CSS starts here */
+    
+    .footer_container{
+        width: 768px;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+
+    /* Subscribe css starts here */
+
+    .subscribeCard_wrapper{
+        width: 768px;
+        flex-direction: column;
+    }
+      
+    .subscribeCard_wrapper .title{
+        font-size: 1.35rem;
+        width: 100%;
+        text-align: center;
+    }
+      
+    .subscribeCard_wrapper .form_wrapper{
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    /* Subscribe css starts here */
+
+    /* blogHome_hero_container css starts here */
+
+    .blogHome_hero_container{
+        width: 768px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .blogHome_hero_container .left{
+        width: 750px;
+    }
+
+    .blogHome_hero_container .right{
+        width: 750px;
+    }
+
+    .front_featuredPost_container .post_info .title{
+        width: 75%;
+    }
+
+    /* blogHome_hero_container css ends here */
+
+    /* BlogPost css starts here */
+
+    .blog_Post_Hero_Wrapper{
+        margin-top: 0.5rem;
+    }
+
+    /* BlogPost css starts here */
+
+    /* Create Post Container css ends here */
+
+    .create_post_main_container{
+        width: 725px;
+        height: 445px;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 1rem 0;
+        position: relative;
+    }
+      
+    .create_post_main_container .close{
+        width: 30px;
+        height: 30px;
+        top: -25px;
+        right: -25px;
+    }
+      
+    .create_post_main_container .close img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .create_post_stepper_container{
+        margin: 0rem 0;
+        margin-bottom: 0.25rem;
+    }
+
+    .create_post_stepper_container #progress_bar_wrapper{
+        display: none;
+    }
+
+    .tiptap-header{
+        flex-wrap: wrap;
+        padding: 0.25rem;
+        padding-bottom: 0.5rem;
+    }
+      
+    .tiptap-header button{
+        /* border: 2px solid #000; */
+        padding: 0.25rem 0.5rem;
+        margin-top: 0.25rem;
+        
+    }
+
+    .create_post_input_area .stepOneArea form .form_field{
+        margin-top: 1.25rem;
+    }
+
+    .step_three_container form .form_field{
+        width: 50%;
+        height: 200px;
+        text-align: center;
+    }
+
+    .tiptap-content .editor .tiptap{
+        height: 150px;
+        overflow-y: scroll;
+        padding: 1rem;
+    }
+
+    /* Create Post Container css ends here */
+
+    /* RowScrollPostsWrapper css starts here */
+    .rowScrollPosts_wrapper{
+        width: 768px;
+    }
+    
+    .rowScrollPosts_container{
+        width: 768px;
+    }
+  
+    /* RowScrollPostsWrapper css ends here */
+
+    /* category Wise Posts css starts here */
+    
+    .category_wise_posts_wrapper .filterCTAs{
+        width: 768px;
+    }
+
+    .category_wise_posts_wrapper .filterCTAs button{
+        margin: 0.5rem;
+        margin-left: 0;
+    }
+
+    /* category Wise Posts css ends here */
+
+    /* Section Heading css starts here */
+
+    .SectionHeading_container{
+        width: 768px;
+    }
+    
+    /* Section Heading css ends here */
+
+    /* Recent Posts starts here */
+  
+    .recent_Posts{
+        width: 768px;
+    }
+    
+    .recent_Posts_Wrapper .section_Heading{
+        width: 768px;
+    }
+    
+    /* Recent Posts ends here */
+
+    /* BlogPost css starts here */
+    
+    .blog_Post_Hero{
+        width: 768px;
+    }
+    
+    .blog_Post_Hero .content{
+        width: 50%;
+    }
+      
+    .blog_Post_Hero .content .title{
+        font-size:2.25rem;
+        line-height: 3.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .blog_Post_Hero .content .post_Date{
+        font-size: 0.875rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 50%;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        height: 250px;
+        margin: 0;
+    }
+    
+    /* BlogPost css ends here */
+
+    /* BlogPostData css starts here */
+
+    .blog_Post_Data{
+        width: 768px;
+        margin: auto;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blog_Post_Data .blog_Post_Content{
+        width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .blog_Post_Related_Posts .Related_Posts_Container{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+
+    .Related_Post_Box .content{
+        padding-left: 0rem;
+      }
+
+    .Related_Posts_Container .Related_Post_Box{
+        min-width: 350px;
+    }
+
+    .blog_Post_Data_wrapper .blog_Post_Related_Posts{
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .blog_Post_Related_Posts .Related_Post{
+        width: 310px;
+    
+    }
+
+    .Related_Posts_Container .Related_Post_Box{
+        margin-bottom: 1rem;
+    }
+    
+    .blog_Post_Related_Posts .Related_Post .image{
+        width: 310px;
+        height: 200px;
+    }
+
+    .blog_Post_Related_Posts .Related_Post .image img{
+        height: 200px;
+    }
+
+    .Related_Post_Box .content .post_Date{
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+    }
+
+    .Related_Post_Box .content .title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
+    }
+      
+    .Related_Post_Box .content .sub_Title{
+        font-size: 0.875rem;
+        color: #667085;
+    }
+    
+
+    /* BlogPostData css ends here */
+
+
+}
+
+@media screen and (max-width:768px){
+
+    /* Global CSS starts here */
+
+    .blogHome_hero_wrapper .section_Heading,
+    .category_wise_posts_wrapper .section_Heading,
+    .suggestedPosts_wrapper .section_Heading,
+    .categoryPagePosts_wrapper .section_Heading{
+        width: 576px;
+    }
+
+    /* Global CSS ends here */
+
+    /* Create Post Container css starts here */
+
+    .create_post_main_container{
+        width: 90%;
+        height: 445px;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 1rem 0;
+        position: relative;
+    }
+
+    /* Create Post Container css ends here */
+
+    /* BlogHomeFooter CSS starts here */
+    
+    .footer_container{
+        width: 100%;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+
+    /* Global CSS starts here */
+
+    .section_Heading{
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+      
+      .section_Heading span{
+        background-color: #D8232A;
+        height: 1.5rem;
+    }
+
+    /* Global CSS starts here */
+
+    /* BlogPost css starts here */
+
+    .blog_Post_Hero_Wrapper{
+        padding: 3rem 0;
+    }
+    
+    .blog_Post_Hero{
+        flex-direction: column;
+        align-items: center;
+        width: 576px;
+    }
+  
+    .blog_Post_Hero .content{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    
+    .blog_Post_Hero .content .category{
+        font-size: 1rem;
+    }
+    
+    .blog_Post_Hero .content .title{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    .blog_Post_Hero .content .post_Date{
+        font-size: 1rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 100%;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        height: 350px;
+    }
+    
+    /* BlogPost css ends here */
+
+    /* Subscribe css starts here */
+
+    .subscribeCard_wrapper{
+        width: 576px;
+    }
+      
+    .subscribeCard_wrapper .title{
+        font-size: 1.35rem;
+    }
+      
+    .subscribeCard_wrapper .form_wrapper{
+        margin-top: 1.5rem;
+    }
+    /* Subscribe css starts here */
+
+    /* RowScrollPostsWrapper css starts here */
+    .rowScrollPosts_wrapper{
+        width: 100%;
+    }
+    
+    .rowScrollPosts_container{
+        width: 100%;
+    }
+  
+    /* RowScrollPostsWrapper css ends here */
+
+    /* category Wise Posts css starts here */
+    
+    .category_wise_posts_wrapper .filterCTAs{
+        width: 100%;
+    }
+
+    .filterCTAs button{
+        font-size: 0.75rem;
+        padding: 0.35rem 0.7rem;
+        border-radius: 1.5rem;
+    }
+
+    /* category Wise Posts css ends here */
+
+    /* Section Heading css starts here */
+
+    .SectionHeading_container{
+        width: 100%;
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .SectionHeading_container span{
+        height: 1.5rem;
+    }
+    
+    /* Section Heading css ends here */
+
+    /* Recent Posts starts here */
+  
+    .recent_Posts{
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .recent_Posts_Wrapper .section_Heading{
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .recent_Posts_Wrapper .section_Heading span{
+        height: 1.5rem;
+      }
+    
+    /* Recent Posts ends here */
+
+    /* BlogPostCard css starts here */
+
+    .blog_card_box{
+        min-width: 290px;
+    }
+    
+    .blog_card{
+        width: 265px;
+    }
+    
+    .blog_card .image{
+        height: 170px;
+    }
+    
+    .blog_card .content .title{
+        font-size: 1.25rem;
+        line-height: 1.65rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .blog_card .content .category{
+        font-size: 0.9rem;
+        padding: 0.25rem 0.75rem;
+        margin-top: 1rem;
+    }
+    
+    .blog_card .content .post_date{
+        font-size: 0.75rem;
+        margin: 0.5rem 0;
+    }
+    
+    .blog_card .content .sub_title{
+        font-size: 0.75rem;
+    }
+    
+    .blog_card .content .CTA{
+        margin: 0.75rem 0;
+    }
+    
+    .blog_card .content .CTA a{
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    
+    .blog_card .content .CTA a img{
+        height: 0.6rem;
+    }
+
+    .blog_Post_Data{
+        width: 100%;
+        margin: auto;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .blog_Post_Related_Posts .Related_Posts_Container{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        
+    }
+
+    .Related_Posts_Container .Related_Post_Box{
+        min-width: 290px;
+    }
+
+    .blog_Post_Data_wrapper .blog_Post_Related_Posts{
+        width: 100%;
+        padding-left: 1.5rem;
+    }
+
+    .blog_Post_Related_Posts .Related_Post{
+        width: 265px;
+    
+    }
+
+    .Related_Posts_Container .Related_Post_Box{
+        margin-bottom: 1rem;
+    }
+    
+    .blog_Post_Related_Posts .Related_Post .image{
+        width: 265px;
+        height: 170px;
+    }
+
+    .blog_Post_Related_Posts .Related_Post .image img{
+        height: 170px;
+    }
+
+    .Related_Post_Box .content .post_Date{
+        font-size: 0.75rem;
+        margin-top: 0.5rem 0;
+    }
+
+    .Related_Post_Box .content .title{
+        font-size: 1.25rem;
+        line-height: 1.65rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+      
+    .Related_Post_Box .content .sub_Title{
+        font-size: 0.875rem;
+        color: #667085;
+    }
+
+    .Related_Post_Box .content .CTA{
+        margin: 0.75rem 0;
+      }
+      
+      .Related_Post_Box .content .CTA a{
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+      
+      .Related_Post_Box .content .CTA a img{
+        height: 0.6rem;
+      }
+
+      /* BlogPostCard css ends here */
+}
+
+
+@media screen and (max-width:576px){
+
+    /* Global CSS starts here */
+
+    .blogHome_hero_wrapper .section_Heading,
+    .category_wise_posts_wrapper .section_Heading,
+    .suggestedPosts_wrapper .section_Heading,
+    .categoryPagePosts_wrapper .section_Heading{
+        width: 100%;
+    }
+
+    /* Global CSS ends here */
+
+    /* BlogHomeHeader CSS starts here */
+
+    .blog_frontend_header .header_container{
+        padding: 0 1rem;
+    }
+
+    .blog_frontend_header .category_list{
+        width: 275px;
+        top: 70px;
+    }
+
+    .blog_frontend_header .category_CTA{
+        font-size: 1rem;
+        padding: 0.75rem 0;
+    }
+
+    .blog_frontend_header .header_logo img{
+        width: 175px;
+        height: 31px;
+    }
+
+    /* BlogHomeHeader CSS starts here */
+
+    /* BlogHomeFooter CSS starts here */
+
+    .footer_container .adminBtn{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .footer_container .footer_logo{
+        width: 175px;
+        height: 31px;
+    }
+
+    .footer_container .partition{
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .footer_container .copyright{
+        font-size: 0.6rem;
+    }
+
+    /* BlogHomeFooter CSS ends here */
+
+    /* Subscribe css starts here */
+
+    .subscribeCard_wrapper{
+        width: 100%;
+    }
+      
+    .subscribeCard_wrapper .title{
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
+      
+    .subscribeCard_wrapper .form_wrapper{
+        margin-top: 1.5rem;
+    }
+
+    .subscribeCard_wrapper .form_wrapper input{
+        width: 200px;
+    }
+      
+    /* Subscribe css starts here */
+
+    /* Shimmer post card css starts here */
+
+    .shimmer_postCard_box{
+        min-width: 290px;
+        width: 290px;
+        height: 425px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard{
+        width:265px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard .image{
+        width: 265px;
+        height: 170px;
+    }
+    
+    .shimmer_postCard_box .shimmer_postCard .content{
+        width: 265px;
+        height: 150px;
+    }
+    
+    .shimmer_postCard .category{
+        width: 150px;
+        height: 30px;
+    }
+    
+    .shimmer_postCard .title{
+        width: 250px;
+        height: 45px;
+    }
+
+    .shimmer_postCard .category{
+        width: 150px;
+        height: 30px;
+    }
+    
+    /* Shimmer post card css ends here */
+
+    /* blogHome_hero_container css starts here */
+
+    .blogHome_hero_wrapper{
+        padding-top: 2rem;
+    }
+
+    .blogHome_hero_container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .blogHome_hero_container .left{
+        width: 100%;
+    }
+
+    .blogHome_hero_container .right{
+        width: 100%;
+    }
+
+    .post_image img{
+        height: 250px;
+    }
+
+    .front_featuredPost_container{
+        min-height: 250px;
+    }
+
+    .front_featuredPost_container .post_info{
+        padding-top: 55px;
+        padding-left: 1rem;
+    }
+        
+    .front_featuredPost_container .post_info .categoryTag{
+        padding: 0.2rem 0.5rem;
+        font-size: 0.75rem;
+    }
+    
+    .front_featuredPost_container .post_info .title{
+        font-size: 1.15rem;
+        line-height: 1.85rem;
+        width: 85%;
+        padding: 0.5rem;
+        margin: 0.75rem 0;
+    }
+    
+    .front_featuredPost_container .post_info .postDate{
+        font-size: 0.75rem;
+    }
+
+    /* blogHome_hero_container css ends here */
+
+    /* SmallPostsWrapper css starts here */
+
+    .SmallPosts_wrapper{
+        margin-bottom: 1rem;
+    }
+    
+    .SmallPosts_container .post_image{
+        width: 110px;
+        height: 110px;
+    }
+    
+    .SmallPosts_container .post_content{
+        max-width: calc(100% - 125px);
+    }
+    
+    .SmallPosts_container .category_tag{
+        font-size: 0.7rem;
+        padding: 0.25rem 0.75rem;
+    }
+    
+    .SmallPosts_container .post_title{
+        font-size: 0.875rem;
+        line-height: 1.1rem;
+        margin-top: 0.35rem;
+    }
+    
+    .SmallPosts_container .post_date{
+        font-size: 0.65rem;
+    }
+    
+    /* SmallPostsWrapper css ends here */
+
+    /* Create Post Container css starts here */
+
+    .create_post_main_container{
+        width: 90%;
+        height: initial;
+        padding: 2rem 0;
+    }
+
+    .create_post_input_area .stepOneArea{
+        padding: 0 1rem;
+    }
+
+    .create_post_main_container .create_post_step_title{
+        margin: 1.25rem auto;
+    }
+
+    .create_post_main_container .close{
+        width: 30px;
+        height: 30px;
+        top: -35px;
+        right: 0px;
+    }
+
+    .step_three_container form .form_field{
+        width: 80%;
+        min-height: 200px;
+        height: initial;
+    }
+
+    /* Create Post Container css ends here */
+
+    /* BlogPost css starts here */
+    
+    .blog_Post_Hero{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+  
+    .blog_Post_Hero .content{
+        width: 100%;
+        padding: 0 0;
+    }
+    
+    .blog_Post_Hero .content .category{
+        font-size: 1rem;
+    }
+    
+    .blog_Post_Hero .content .title{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+    
+    .blog_Post_Hero .content .post_Date{
+        font-size: 1rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 100%;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        max-height: 300px;
+        height: auto;
+    }
+    
+    /* BlogPost css ends here */
+}
+
+@media screen and (max-width:450px){
+    /* BlogPost css starts here */
+
+    .blog_Post_Hero_Wrapper{
+        padding: 2rem 0;
+    }
+    
+    .blog_Post_Hero{
+        padding: 0 1.5rem;
+    }
+
+    .blog_Post_Hero .content{
+        width: 350px;
+        padding: 0 0;
+    }
+    
+    .blog_Post_Hero .content .category{
+        font-size: 0.875rem;
+    }
+    
+    .blog_Post_Hero .content .title{
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+    
+    .blog_Post_Hero .content .post_Date{
+        font-size: 0.875rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 350px;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image img{
+        max-height: 300px;
+        height: auto;
+    }
+    
+    /* BlogPost css ends here */
+}
+
+@media screen and (max-width:375px){
+    /* BlogPost css starts here */
+    
+    .blog_Post_Hero{
+        padding: 0 1rem;
+    }
+
+    .blog_Post_Hero .content{
+        width: 315px;
+        padding: 0 0;
+    }
+    
+    .blog_Post_Hero .content .title{
+        font-size: 1.95rem;
+        line-height: 2.75rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .blog_Post_Hero .thumbnail_Image{
+        width: 315px;
+    }
+    
+    /* BlogPost css ends here */
+}
+
