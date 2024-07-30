@@ -6,7 +6,7 @@ import removeIcon from "../../utils/assets/icons/remove.png";
 import restoreIcon from "../../utils/assets/icons/restore.png";
 import { useFirebase } from "../../context/firebase";
 import Tooltip from "./Tooltip";
-import { useNewPostObject } from "../../context/createNewPostContext";
+// import { useNewPostObject } from "../../context/createNewPostContext";
 
 const generateSlug = (title) => {
     return title
@@ -22,13 +22,13 @@ const PostsListRow = ({RowData, setCreateNewPostState, createNewPostState, setEd
 
     const Firebase = useFirebase();
     const {editPostState, setEditPostState} = Firebase;
-    const {newPostData, setNewPostData} = useNewPostObject();
+    // const {newPostData, setNewPostData} = useNewPostObject();
 
     if (!RowData) {
         return null;
     }
 
-    const {published,blogTitle, category, _createdAt, categorySlug, slug} = RowData;
+    const {published, category, categorySlug, slug} = RowData;
 
     return (
 
@@ -49,11 +49,11 @@ const PostsListRow = ({RowData, setCreateNewPostState, createNewPostState, setEd
                                 setEditPostState(true);
                                 setEditData(data);
                             })
-                        }} id="first"><img src={edit}/><Tooltip text={"Edit"}/></button>
+                        }} id="first"><img src={edit} alt=""/><Tooltip text={"Edit"}/></button>
 
                         <button onClick={async () => {
                             const data = await Firebase.moveToTrash({category : generateSlug(RowData.category),slug : RowData.slug});
-                        }}><img src={deleteIcon}/><Tooltip text={"Move to trash"}/></button>
+                        }}><img src={deleteIcon} alt=""/><Tooltip text={"Move to trash"}/></button>
                     </div> 
                 }
                 {
@@ -64,24 +64,24 @@ const PostsListRow = ({RowData, setCreateNewPostState, createNewPostState, setEd
                                 {
                                     Firebase.removePost({category : generateSlug(RowData.category),slug : RowData.slug, actionOnKey : "featuredBlog"})
                                 }
-                                else if(value == "suggestedPosts"){
+                                else if(value === "suggestedPosts"){
                                     Firebase.removePost({category : generateSlug(RowData.category),slug : RowData.slug, actionOnKey : "suggested"})
                                 }    
                             }
-                        }><img src={removeIcon}/><Tooltip text={"Remove"}/></button>
+                        }><img src={removeIcon} alt=""/><Tooltip text={"Remove"}/></button>
                     </div>
                 }
                 {
                     value === "trash" && <div>
                         <button id="first" onClick={() => {
                             Firebase.restorePost({category: generateSlug(RowData.category), slug : RowData.slug})
-                        }}><img src={restoreIcon}/><Tooltip text={"Restore"}/></button>
+                        }}><img src={restoreIcon} alt=""/><Tooltip text={"Restore"}/></button>
                         <button onClick={() => {
                             if(Firebase.isUser !== "admin"){
                                 alert("Test User does not have the authority to permanently delete a post.");
                                 return;
                             }
-                        }}><img src={deleteIcon}/><Tooltip text={"Delete Permanently"}/></button>
+                        }}><img src={deleteIcon} alt=""/><Tooltip text={"Delete Permanently"}/></button>
                     </div>
                 }
             </td>

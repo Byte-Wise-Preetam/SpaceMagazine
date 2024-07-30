@@ -28,11 +28,13 @@ const DashboardMainBody = ({firstStepPostsData, setCreateNewPostState, createNew
     const Firebase = useFirebase();
     const {editPostState,setEditPostState} = Firebase;
     let { value } = useParams();
-    let actionPage;
+    // let actionPage;
 
     const [editData, setEditData] = useState(null);
 
     useEffect(()=>{
+
+        let actionPage;
 
         async function getData(value){
             setLoading(true);

@@ -23,7 +23,7 @@ const EditPostMain = ({ setEditPostState, defaultData }) => {
 
   const Form = useForm();
   const Firebase = useFirebase();
-  const { register, handleSubmit, setValue } = Form;
+  const { register, handleSubmit } = Form;
   const [editedData, setEditedData] = useState({ ...defaultData });
   const [currentStep, setCurrentStep] = useState(1);
   const [progressBarWidth, setProgressBarWidth] = useState(0);
@@ -35,12 +35,6 @@ const EditPostMain = ({ setEditPostState, defaultData }) => {
     content,
   });
 
-  const handleDisplayDefaultData = () => {
-    Object.keys(defaultData).forEach((key) => {
-      setValue(key, defaultData[key]);
-    });
-  };
-
   useEffect(() => {
     if (currentStep !== CHECKOUT_STEPS.length + 1) {
       let width = ((currentStep - 1) / (CHECKOUT_STEPS.length - 1)) * 100;
@@ -48,7 +42,7 @@ const EditPostMain = ({ setEditPostState, defaultData }) => {
     }
 
     // console.log("editedData : ", editedData);
-  }, [currentStep, defaultData, editedData]);
+  }, [currentStep, defaultData, editedData, CHECKOUT_STEPS.length]);
 
   if (!editor) {
     return null;

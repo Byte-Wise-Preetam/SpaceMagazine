@@ -30,7 +30,7 @@ const PostInfoAction = ({post, categorySlug, setPopUpListData}) => {
                 {
                     actionKey = "featuredBlog";
                 }
-                let popUpData;
+                // let popUpData;
                 Firebase.includePost({category : categorySlug, slug : post.slug, actionOnKey : actionKey})
                 .then(async () => {
                     // value === "featuredPosts" ? popUpData = await Firebase.fetchNotFeaturedPosts() : popUpData = await Firebase.fetchNotFeaturedPosts();

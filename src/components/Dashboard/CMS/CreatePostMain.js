@@ -37,7 +37,7 @@ const CreatePostMain = ({setCreateNewPostState, createNewPostState}) => {
             setProgressBarWidth(width);
         }
 
-    },[currentStep, newPostData]);
+    },[currentStep, newPostData, CHECKOUT_STEPS.length]);
 
     if(!editor){
         return null;
